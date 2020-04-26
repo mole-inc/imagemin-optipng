@@ -1,4 +1,4 @@
-# imagemin-optipng [![Build Status](http://img.shields.io/travis/imagemin/imagemin-optipng.svg?style=flat)](https://travis-ci.org/imagemin/imagemin-optipng)
+# imagemin-optipng ![Node CI](https://github.com/mole-inc/imagemin-optipng/workflows/Node%20CI/badge.svg)
 
 > Imagemin plugin for OptiPNG
 
@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install imagemin-optipng
+$ npm install @mole-inc/imagemin-optipng
 ```
 
 
@@ -14,7 +14,7 @@ $ npm install imagemin-optipng
 
 ```js
 const imagemin = require('imagemin');
-const imageminOptipng = require('imagemin-optipng');
+const imageminOptipng = require('@mole-inc/imagemin-optipng');
 
 (async () => {
 	await imagemin(['images/*.png'], 'build/images', {
@@ -97,3 +97,10 @@ A reasonable amount of effort will be spent to try to recover as much data as po
 Type: `Buffer`
 
 Buffer to optimize.
+
+
+## License
+
+This is a fork of [imagemin/imagemin-optipng](https://github.com/imagemin/imagemin-optipng).
+
+see license file.
